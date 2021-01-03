@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://3.12.85.202:9000/</sonar.host.url>
+		 <sonar.host.url>http://18.222.211.141:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>  
               
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Kroger Releases Nexus Repository</name>
-	      <url>http://3.12.85.202:8081/repository/kroger-release/</url>
+	      <url>http://18.222.211.141:8081/repository/kroger-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Kroger Snapshot Nexus Repository </name>
-	      <url>http://3.12.85.202:8081/repository/kroger-snapshot/</url>
+	      <url>http://18.222.211.141:8081/repository/kroger-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
